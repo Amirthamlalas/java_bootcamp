@@ -38,9 +38,18 @@ public class Calculator {
                         System.out.println("Ans of multiplication\t:"+mul);
                         break;
                     case 4:
-                        int div = n1/n2;
-                        System.out.println("Ans of division\t:"+div);
-                        break;
+                        try {
+                            int div = n1 / n2;
+
+                            System.out.println("Ans of division\t:" + div);
+                            break;
+                        } catch (ArithmeticException e) {
+                            System.out.println("error : NUMBER DIVIDED BY ZERO");
+                        }
+                        finally {
+                            break;
+                        }
+
                     case 5:
 
                         break;
