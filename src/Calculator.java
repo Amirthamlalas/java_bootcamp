@@ -6,7 +6,12 @@ class choice{
 
         switch (c){
 
-
+            case 1:
+                int ans = n1+n2;
+                System.out.println("Ans of Addition\t:"+ans);
+                break;
+            default:
+                System.out.println("invalid input");
         }
     }
 }
