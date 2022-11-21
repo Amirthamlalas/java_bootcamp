@@ -10,6 +10,10 @@ class choice{
                 int ans = n1+n2;
                 System.out.println("Ans of Addition\t:"+ans);
                 break;
+            case 2:
+                int sub = n1-n2;
+                System.out.println("Ans of Subtraction\t:"+sub);
+                break;
             default:
                 System.out.println("invalid input");
         }
