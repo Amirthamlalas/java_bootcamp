@@ -42,6 +42,7 @@ public class Calculator {
                             int div = n1 / n2;
 
                             System.out.println("Ans of division\t:" + div);
+                            break;
                         } catch (ArithmeticException e) {
                             System.out.println("error : NUMBER DIVIDED BY ZERO");
                         }
