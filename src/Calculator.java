@@ -14,6 +14,10 @@ class choice{
                 int sub = n1-n2;
                 System.out.println("Ans of Subtraction\t:"+sub);
                 break;
+            case 3:
+                int mul = n1*n2;
+                System.out.println("Ans of Subtraction\t:"+mul);
+                break;
             default:
                 System.out.println("invalid input");
         }
